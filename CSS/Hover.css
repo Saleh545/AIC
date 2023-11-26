@@ -857,7 +857,7 @@ nav .about-content li a {
     letter-spacing: 0.56px;
 }
 
-.footer-box a:hover{
+.footer-box a:hover {
     color: #FEA82F;
 
 }
@@ -885,9 +885,11 @@ nav .about-content li a {
     display: inline-flex;
     gap: 30px;
 }
-.contact-info .social a i:hover{
+
+.contact-info .social a i:hover {
     color: #FEA82F !important;
 }
+
 .author p {
     color: #FFF;
     text-align: right;
@@ -904,6 +906,7 @@ nav .about-content li a {
     line-height: 26px;
     letter-spacing: 0.28px;
 }
-.author p a:hover{
+
+.author p a:hover {
     color: #FEA82F;
 }
