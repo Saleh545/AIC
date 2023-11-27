@@ -830,6 +830,7 @@ nav .about-content li a {
 .footer {
     background-color: #1A2E51;
     padding: 56px 0 48px 0;
+  
 }
 
 .footer-item {
@@ -864,6 +865,8 @@ nav .about-content li a {
 
 .contact {
     background-color: #1A2E51;
+    border-top: 1px solid #fff;
+
 }
 
 .contact-info {
@@ -884,6 +887,8 @@ nav .about-content li a {
 .social {
     display: inline-flex;
     gap: 30px;
+    align-items: center;
+
 }
 
 .contact-info .social a i:hover {
