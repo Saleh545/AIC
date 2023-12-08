@@ -215,7 +215,9 @@ nav .about-content li a {
 .top-item span {
     margin-right: 8.9px;
 }
-
+.card{
+    position: relative;
+}
 .card img {
     width: 368px;
     height: 400px;
@@ -254,9 +256,10 @@ nav .about-content li a {
     letter-spacing: 0.84px;
     text-transform: uppercase;
     margin-left: 8px;
-    border-bottom: 1px solid #B4B8BF;
     padding-bottom: 12px;
     padding-right: 140px;
+    border-bottom: 1px solid #B4B8BF;
+
 }
 
 .text i {
@@ -270,11 +273,34 @@ nav .about-content li a {
     height: 24px;
     cursor: pointer;
 }
-
 .text i:hover {
     color: #F5B458;
     border-color: #F5B458;
 }
+.bottom-text {
+    display: block;
+    position: absolute;
+    top: 1px;
+    z-index: 1;
+    background-color: #fff;
+}
+.bottom-text p {
+    color: var(--BODY, #465061 ) !important;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    border-bottom: 1px solid #B4B8BF;
+    display: none;
+    padding-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+    height: 90%;
+}
+.bottom-text.active p {
+    display: block;
+    color: #F5B458;
+ 
+}
+
 
 /* person end */
 /* footer start */
