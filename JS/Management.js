@@ -1,5 +1,4 @@
-document
-  .querySelector(".select .selected")
+document.querySelector(".select .selected")
   .addEventListener("click", function () {
     document.querySelector(".select").classList.add("show");
   });
@@ -9,15 +8,20 @@ document.querySelectorAll(".dropdown a").forEach(function (item) {
   });
 });
 
+
+
+
+
+
+
+
 function toggleText(index) {
   let textId = "myText" + index;
   let textElement = document.getElementById(textId);
-
   if (!textElement) {
     console.error("Element not found with ID: " + textId);
     return;
   }
-
   textElement.style.display =
     textElement.style.display === "none" ? "block" : "none";
 

@@ -438,8 +438,7 @@ nav .about-content li a {
 
 .angry-grid {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template: repeat(5, 1fr) / repeat(9, 1fr);
     gap: 20px;
     height: 100%;
     margin-top: 48px;
