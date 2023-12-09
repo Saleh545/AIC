@@ -206,144 +206,15 @@ nav .about-content li a {
     padding-right: 12px;
 }
 
-/* HEADER END*/
-/* INNER START */
-.inner {
+.why {
     margin-top: 79px;
 }
 
-.img-text {
-    margin-top: 56px;
-}
-
-.text {
+.top-text p {
     margin-top: 47px;
-    width: 94%;
-
-}
-
-.text p {
-    margin-top: 34px;
     color: var(--BODY, #465061);
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.8px;
-}
-
-.btn {
-    color: var(--DARK-Blue, #1A2E51);
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    position: relative;
-    display: inline-block;
-    z-index: 1;
-    margin-top: 48px;
-    cursor: pointer;
-}
-.btn::after {
-    content: '';
-    width: 100%;
-    height: 3px;
-    background-color: #FEA82F;
-    bottom: 0;
-    left: 0;
-    transition: ease-in-out .4s;
-    position: absolute;
-    z-index: -1
-}
-
-.btn:hover::after {
-    height: 100%;
-}
-/* INNER END */
-
-/* footer start */
-.footer {
-    background-color: #1A2E51;
-    padding: 56px 0 48px 0;
-    margin-top: 120px;
-}
-
-.footer-item {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.footer-box h2 {
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.84px;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-}
-
-.footer-box a {
-    display: block;
-    color: rgba(255, 255, 255, 0.87);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.56px;
-}
-
-.footer-box a:hover {
-    color: #FEA82F;
-}
-
-.contact {
-    background-color: #1A2E51;
-    border-top: 1px solid #fff;
-}
-
-.contact-info {
-    padding: 16px 0 16px 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.reserved p {
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0.28px;
-}
-
-
-.social {
-    display: inline-flex;
-    gap: 30px;
-    align-items: center;
-}
-
-.contact-info .social a i:hover {
-    color: #FEA82F !important;
-}
-
-.author p {
-    color: #FFF;
-    text-align: right;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0.28px;
-}
-
-.author p a {
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: 0.28px;
-}
-
-.author p a:hover {
-    color: #FEA82F;
 }
